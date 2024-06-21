@@ -1,0 +1,40 @@
+.row {
+  display: flex;
+  flex: 1;
+  /* background-color: azure;
+  border-radius: 6px; */
+  margin: 3px;
+
+}
+
+.row div{
+  /* border: 1px solid black ; */
+
+  margin: 3px;
+  padding: 7px;
+  border-radius: 12px;
+  background-color: azure;
+  box-shadow: 5px 5px 5px rgba(2, 20, 184, 0.514);
+}
+.row div:hover{
+  background-color: rgb(208, 211, 184);
+  box-shadow: 5px 5px 5px rgba(2, 20, 184, 0.514);
+}
+
+.index{
+  min-width: 25px;
+  max-width: 50px;
+}
+.name{
+  flex:1;
+  min-width: 500px;
+  text-align: start;
+}
+
+.price{
+  min-width: 125px;
+}
+.number{
+  min-width: 75px;
+}
+

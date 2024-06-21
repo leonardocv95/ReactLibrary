@@ -1,0 +1,51 @@
+.textField {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+  color: black;
+  /* border-color: 2px solid black; */
+  font-weight: 400;
+  /* background-color: whitesmoke; */
+  text-align: start;
+
+}
+
+.textField .name{
+
+  font-size: large;
+  padding-left: 10px;
+
+}
+
+.error{
+  background-color: rgb(236, 167, 167);
+  color: red;
+  font-weight: 300;
+  font-size: 0.5em;
+  padding: 0px 8px;
+  text-align: right;
+  justify-content: top;
+  align-items: top;
+  text-align: top;
+  margin: 0px 10px;
+}
+
+.textField input{
+  border-radius: 15px;
+  padding: 4px 12px;
+  margin: 0px;
+  /* border: 2px solid black; */
+  font-weight: 400;
+}
+
+.textField #valid{
+  /* border-color: lightgreen; */
+  /* background-color: lightgreen; */
+}
+
+.textField #invalid{
+ /* border-color: lightcoral; */
+ /* background-color:rgb(253, 188, 188); */
+ border-bottom: 4px solid salmon;
+ /* background-color: lightgreen; */
+}

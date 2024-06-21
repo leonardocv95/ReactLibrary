@@ -1,0 +1,13 @@
+.Table{
+  display: flex ;
+  flex-direction: column;
+  background-color: cadetblue;
+  padding: 4px;
+}
+
+.TableHeader{
+  background-color: blue;
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+}

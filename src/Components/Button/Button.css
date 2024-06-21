@@ -1,0 +1,63 @@
+.Button_normal{
+  background-color: rgb(152, 192, 245);
+  color: black;
+  /* height: 8%; */
+  align-content: center;
+  border: 1px solid black;
+  /* border-radius: 8px; */
+  margin: 2px;
+  padding: 2px 32px;
+}
+
+.Button_normal:hover{
+ 
+  background-color: rgb(105, 111, 119);
+}
+
+.button_round{
+  display: flex;
+  background-color: rgb(193, 210, 233);
+  color: black;
+  /* height: 8%; */
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 2px;
+  padding: 4px 24px;
+  font-weight: 400;
+  align-items: center;
+
+
+}
+
+.button_round:hover{
+  background-color: rgb(156, 203, 235);
+
+}
+
+.button_icon{
+  display: flex;
+  /* border: 1px solid black; for testing */
+  /* border-radius: 15px; */
+  margin: 2px;
+  /* padding: 4px 16px; */
+  /* font-weight: 400; */
+  align-items:end;
+}
+
+.button_icon:hover{
+  /* border-radius: 15px; */
+  /* padding: 4px 16px; */
+  /* font-weight: 400; */
+  /* border-radius: 15px;
+  box-shadow: #FFFFFF 0 0  12px,
+                #A91079 0 0 25px,
+                #A91079 0 0 35px,
+                #A91079 0 0 45px;
+              
+                */
+
+}
+svg:hover {
+  filter: drop-shadow(1px 1px 4px rgba(23, 20, 197, 0.685));
+    border: none;
+}

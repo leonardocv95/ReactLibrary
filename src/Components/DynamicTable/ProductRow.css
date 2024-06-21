@@ -1,0 +1,31 @@
+.ProductRow{
+  display: flex;
+  flex-direction: row;
+  background-color: tan;
+  color: black;
+  padding: 4px 32px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  gap: 16px;
+}
+
+.ProductRow div{
+  
+  /* background-color: lightblue;
+  border: 1px solid black; */
+  
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+
+}
+.p{
+  background-color: transparent;
+  border: none;
+  font-size: 0.5em;
+  text-align: left;
+  align-items: end;
+}

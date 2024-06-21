@@ -1,0 +1,36 @@
+.noti label{
+  color:  black;
+  font-weight: 700;
+  font-size: larger;
+}
+.noti p{
+  color:  rgb(255, 0, 0);
+  font-weight: 500;
+  margin: 0px;
+  padding-bottom: 8px;
+  font-size: 1rem;
+}
+
+.middle{
+  display: flex;
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.form{
+  display: flex;
+  flex-direction:  column;
+  border-radius:45px;
+  background-color: lightslategray;
+  padding: 24px;
+  margin: 8px;
+
+}
+#text{
+  flex: 1;
+}
